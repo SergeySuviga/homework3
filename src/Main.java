@@ -17,7 +17,6 @@ public class Main   {
         public static void task1() {
 
             System.out.println("Задача 1");
-
             byte human = 50;
 
             System.out.println("Значение переменной" + " a" + " с типом" + " byte"+ " равно " + human + ".");
@@ -43,7 +42,6 @@ public class Main   {
 
             public static void task2() {
             System.out.println("Задача 2");
-
             byte a = 67;
             short b = 159;
             int c = 27897;
@@ -54,23 +52,17 @@ public class Main   {
     }
             public static void task3(){
             System.out.println("Задача 3");
-
             byte Ludmila = 23;
             byte Anna = 27;
             byte Ekaterina = 30;
             long paper = 480;
             System.out.println(Ludmila+Anna+Ekaterina);
             int paper1 = (480 / (Ludmila + Anna + Ekaterina));
-
-
                         System.out.println("На каждого ученика рассчитано " +paper1+ " листов бумаги" + ".");
-
             }
 
             public static void task4(){
             System.out.println("Задача 4");
-
-
               //Производительность машины для изготовления бутылок — 16 бутылок за 2 минуты
                 byte standart = 16;
                 byte standart2 = 2;
@@ -81,13 +73,10 @@ public class Main   {
                 //за 20 минут
                 int conditionOne = min * 20;
                 System.out.println("За " +20 + " минут машина произвела " + conditionOne+ " штук бутылок" +".");
-
                 //за один час
                 int hour = min * 60;
-
                 //Минут в сутках
                 int minuteInDay = 60*24;
-
                 //за сутки (24 часа)
                 int day = minuteInDay * hour;
                 System.out.println("За сутки машина произвела " + day+ " штук бутылок" +".");
@@ -102,21 +91,16 @@ public class Main   {
                 int month = minuteInDay * 31;
                 int monthBottle = month * min;
                 System.out.println("За один месяц машина произвела " + monthBottle+ " штук бутылок" +".");
-
-
             }
 
     public static void task5(){
         System.out.println("Задача 5");
-
         int scool = 120 / 6;
         int classA =scool * 4;
         int classB =scool * 2;
 
-
         System.out.println("В школе, где " +scool+ " классов, нужно " +classA+ " банок белой краски и " +classB+
                         " банок коричневой краски.");
-
     }
 
 
@@ -149,16 +133,13 @@ public class Main   {
 
     public static void task7(){
         System.out.println("Задача 7");
-
         int totalWeight = 7;// общий вес / 7000 гр
         int gramms = 7*1000;
         int weightLoss1 = 250; //похудение на 250гр
         int weightLoss2 = 500; //похудение на 500гр
         int tyme = 24;
-
         int loss1 = 24*gramms/weightLoss1;
         int loss2 = 24*gramms/weightLoss2;
-
         System.out.println("Спортсмену может потребоваться " +loss1+ " дня сбрасывая веса по " +weightLoss1+ " грамм чтобы добиться результата похудения," +
                 "или " +loss2+ " дней по " +weightLoss2 + " грамм.");
 
